@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Museum</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body style="background-color: #ebece5;">
+    <header>
+        <div class="logo-container">
+            <nav>
+                <img src="img/logo.jpg" class="icon" alt="Icon">
+            </nav>
+            <h2 style="color: #EDE1D2; font-family: Roboto; font-size: 160%;">BORNEO CULTURAL MUSEUM</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="about.html">About Us</a>
+                        <div class="dropdown-content">
+                            <a href="#Location and Building">Location and Building</a>
+                            <a href="#Galleries and Exhibits">Galleries and Exhibits</a>
+                            <a href="#Opening and Visitor numbers ">Opening and Visitor numbers </a>
+                            <a href="#History and Origins ">History and Origins </a>
+                        
+                        </div>
+                    </div>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="tickets.html">Buy Ticket</a></li>
+            </ul>
+        </nav>
+        <form class="bar">
+            <input type="search" name="search" pattern=".*\S.*" required autocomplete="off">
+            <button class="search-btn" type="submit">
+                <span>Search</span>
+            </button>
+        </form>
+    </header>
+
+        
+            <h1 style="margin-top: 40px; text-align: center; font-size: 350%; font-family: garamond; color: #18392b;">Welcome to the Borneo Cultures Museum</h1>
+            <p style="margin: 50px;text-align: left; margin-left: 8%; color: #18392b; font-family: georgia;font-size: 180%;">
+                The Borneo Cultures Museum in Kuching, Sarawak is a modern five-storey building that showcases the rich cultural heritage and traditions of Sarawak and Borneo. The museum features distinctive architectural elements inspired by Sarawak's unique crafts and culture, such as geometric patterns reminiscent of woven mats and a curved roof shape similar to longhouses.
+            </p>
+        
+        
+            <img class="img-about2" src=img/museum1.png>
+        
+            <section id="Location and Building">
+            <h1 style="margin: 50px; text-align: left; margin-left: 8%; color: #18392b; font-family:Merriweather ;font-size: 280%;"> Location and Building</h1>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">The Borneo Cultures Museum is located in the center of Kuching city, next to Padang Merdeka. It is a modern five-storey building with a total exhibition space of 30,000 sq m, making it the largest museum in Malaysia and second largest in Southeast Asia after Singapore's National Museum. The building features distinctive architectural elements inspired by Sarawak's traditional crafts and culture, such as:</p>
+                <ul style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%;; text-align: left; margin-left: 8%;">
+                    <li>Facade with geometric patterns reminiscent of woven mats and baskets</li>
+                    <li>Roof with a curved shape similar to traditional longhouses</li>
+                    <li>Use of natural materials like wood and bamboo throughout the interior</li>
+                </ul>
+                <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">In addition to the exhibition galleries, the museum also has an auditorium and various event spaces available for public rental on the first floor. Visitor facilities like a reception counter, restaurant and shop are also located on this level.</p>
+                <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%;text-align: left; margin-left: 8%;">The museum's origins trace back to the Sarawak Museum founded in 1891 by Charles Brooke, the Second Rajah of Sarawak. The new Borneo Cultures Museum building was constructed across the street from the old Sarawak Museum as part of a RM308 million refurbishment project.</p>
+            <img class="img-museum" src=img/museum6.png width="1400">
+            </section>
+        
+            <section id="Galleries and Exhibits">
+            <bold>
+            <h1 style="margin: 50px; text-align: left; margin-left: 8%; color: #18392b; font-family:Merriweather ;font-size: 280%;"> Galleries and Exhibits</h1>
+            </bold>
+        
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">
+                The museum has several permanent galleries spread across its five floors:
+            </p>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">
+                Level 2: Children's gallery on "Love Our Rivers" theme and Arts & Crafts gallery
+            </p>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">
+                Level 3: "In Harmony With Nature" gallery exploring the relationship between communities and environment
+            </p>
+            <p style="margin: 50px;color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">
+                Level 4: "Time Changes" gallery covering Sarawak's history from prehistory to modern times
+            </p>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">
+                Level 5: "Objects of Desire" gallery showcasing the finest artifacts and craftsmanship
+            </p>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">
+                It houses over 1,000 artifacts representing the indigenous cultures of Borneo, with 30% of exhibits being interactive
+            </p>
+        
+            <img class="img-museum" src=img/museum5.png width="1400">
+            </section>
+
+            <section id="Opening and Visitor numbers">
+            <h1 style="margin: 50px; text-align: left; margin-left: 8%; color: #18392b; font-family:Merriweather ;font-size: 280%;"> Opening and Visitor numbers </h1>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%;text-align: left; margin-left: 8%;">
+
+                <h2 style="text-align: left; margin-left: 8%; color: #18392b; font-family:Merriweather ;font-size: 230%;">Opening</h2>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">The Borneo Cultures Museum officially opened to the public on March 9, 2022 after being launched on March 4 by the Yang di-Pertua Negeri Tun Pekin Sri Abdul Taib Mahmud. </p>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">The museum was originally supposed to open much earlier but was delayed due to the COVID-19 pandemic. For the first three months after opening, admission to the museum was free of charge. As of August 1, 2022, the museum began charging admission fees for visitors</p>
+
+            <h2 style="text-align: left; margin-left: 8%; color: #18392b; font-family:Merriweather ;font-size: 230%;">Visitor Numbers</h2>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;"> The museum welcomed 1,000 visitors on its opening day on March 9, 2022.</p>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">In its first few months, over 13,000 visitor slots were booked in under 10 days, with a maximum of 500 visitors allowed inside at a time.</p>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">As of July 25, 2022, the Borneo Cultures Museum had attracted about 350,000 visitors since its opening.</p>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">The museum is currently operating daily from 9am to 4.45pm on weekdays and 9.30am to 4.30pm on weekends and public holidays, with last entry at 4pm.</p>
+        
+            <img src=img/museum3.png width="700">
+            <img src=img/museum4.png width="630">
+            </section>
+
+            <section id="History and Origins">
+            <h1 style="margin: 50px; text-align: left; margin-left: 8%; color: #18392b; font-family:Merriweather ;font-size: 280%;"> History and Origins </h1>
+        
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">
+                The Borneo Cultures Museum has its origins in the Sarawak Museum, which was founded in 1891 by Charles Brooke, the Second Rajah of Sarawak. The original Sarawak Museum building was erected in 1889 in the Queen Anne style of architecture to house the diverse collections from the region.
+            </p>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">
+            In the 1860s, Charles Brooke set up a temporary museum at the Marketplace along Gambier Street in Kuching. The actual Sarawak Museum building was built in 1889 and opened to the public on August 4, 1891. It was designed to permanently house and display local native arts and crafts and collections of local animals.
+            </p>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">
+            The museum was extended to its present form in 1911. It formerly housed an exceptional ethnographic collection but was closed in 2017 for an RM308 million refurbishment project. As part of this, the new Borneo Cultures Museum was built across the street from the old Sarawak Museum building.
+            </p>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%;text-align: left; margin-left: 8%;">
+            The Borneo Cultures Museum opened in March 2022 as the second largest museum in Southeast Asia after Singapore's National Museum. With a total exhibition space of 30,000 sq m, it is the largest museum in Malaysia.
+            The museum aims to become a lively place for social and cultural exchange, hosting a range of events and programs in its auditorium and function rooms. It features distinctive architecture inspired by Sarawak's traditional crafts and culture
+            </p>
+            <img class="img-museum" src=img/museum2.png width="1400">
+        
+           </section>
+
+    <footer>
+        <p>&copy; 2024 Museum. All rights reserved.</p>
+    </footer>
+
+    <script>
+        $(".dropdown-content a").click(function() {
+            var targetId = $(this).attr("href");
+            $("html, body").animate({
+                scrollTop: $(targetId).offset().top
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

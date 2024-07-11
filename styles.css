@@ -1,0 +1,227 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ebece5;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#home {
+    background-color: #ebece5;;
+}
+
+#about {
+    background-color: #ebece5;
+}
+
+#tickets {
+    background-color: #ebece5;
+}
+
+#gallery {
+    background-color: #ebece5;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    margin: 10px;
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    background-color: #f5f4f4;
+    color: #18392b;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.img-muzium {
+    max-width: 100%;
+    height: auto;
+    margin-right: 50%;
+}
+
+.img-home {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-section 2 {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-section 3 {
+    width: 20%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.img-section {
+    flex: 1;
+    margin-right: 20px;
+}
+.map-section {
+    flex: 1;
+}
+
+.h2 {
+    font-family: serif;
+    font-size: 50%;
+    color: 18392b;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333; /* Optional: Background color for header */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    margin-right: 20px; /* Adjust spacing between the icon and the heading */
+}
+h2 {
+    margin: 0; /* Remove default margin */
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+}
+.bar {
+    display: flex;
+    align-items: center;
+}
+.bar input[type="search"] {
+    padding: 5px;
+    font-size: 16px;
+}
+.search-btn {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+.content {
+    flex: 1;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right {
+    width: 45%;
+    margin-bottom: 20%;
+}
+
+.left p, .right p {
+    margin: 0 0 10px 0;
+}
+
+footer {
+    width: 100%;
+    background-color: #f5f4f4;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .right {
+        text-align: left;
+    }
+}
+
+.img-gallery {
+    border-style: none;
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-museum {
+    width: 70%;
+}
+
+.img-about2 {
+    margin-left: 8%;
+    max-width: 83%;
+
+}

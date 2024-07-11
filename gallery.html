@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body style="background-color: #ebece5;">
+    <header>
+        <div class="logo-container">
+            <nav>
+                <img src="img/logo.jpg" class="icon" alt="Icon">
+            </nav>
+            <h2 style="color: #EDE1D2; font-family: Roboto; font-size: 160%;">BORNEO CULTURAL MUSEUM</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="gallery.html">Gallery</a>
+                        <div class="dropdown-content">
+                            <a href="#floor1">Level 1</a>
+                            <a href="#floor2">Level 2</a>
+                            <a href="#floor3">Level 3</a>
+                            <a href="#floor4">Level 4</a>
+                            <a href="#floor5">Level 5</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="tickets.html">Buy Ticket</a></li>
+            </ul>
+        </nav>
+        
+        <form class="bar">
+            <input type="search" name="search" pattern=".*\S.*" required autocomplete="off">
+            <button class="search-btn" type="submit">
+                <span>Search</span>
+            </button>
+        </form>
+    </header>
+
+    <div>
+        <h1 style="margin-top: 40px; font-size: 350%; font-family: garamond; color: #18392b;; text-align: center;">There Are 5 Floors in the Building</h1>
+
+        <section id="floor1">
+            <h2 style=" color: #18392b; font-family:Merriweather ;font-size: 280%;">Level 1: Features an Exhibition.</h2>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">Level 1 Features an Exhibition on Shamanism in Borneo. The first gallery features shamanism in Borneo. It's quite dark and eerie. One of the first displays you'll see upon entering the gallery is a big screen tv that shows shamanism rituals.<br>I spent about 10 minutes watching the video. There are many shamanism tools displayed in the gallery, big and small. I must say that this is one of the most unique galleries in the museum.</p>
+            <img class="img-gallery" src="img/1.jpeg" alt="First Floor Gallery">
+        </section>
+
+        <section id="floor2">
+            <h2 style=" color: #18392b; font-family:Merriweather ;font-size: 280%;">Level 2: Features the Children's Gallery.</h2>
+         <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">Level 2 Features the Children's Gallery and the Arts and Crafts Gallery. The second floor's gallery is the Children's Gallery and the Arts and Crafts Gallery. It features a 'Love Our Rivers' theme, which focuses on water conservation. Also, there are playgrounds and a lounge for both kids and adults to enjoy.<br> There are many cute displays in this gallery, like the River Waste Band, which is a display of musical instruments assembled using wastes thrown into rivers. While the gallery is an interesting one, I didn't stay very long as it was very crowded and noisy at the time.</p>
+         <img class="img-gallery" src="img/2.jpeg" alt="Second Floor Gallery">
+        </section>
+
+        <section id="floor3">
+            <h2 style=" color: #18392b; font-family:Merriweather ;font-size: 280%;">Level 3: Features in Harmony With Nature</h2>
+         <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">Level 3 Features the 'In Harmony With Nature' Exhibition. On the third floor, you'll find the 'In Harmony With Nature' exhibition. This gallery is the biggest one in the museum, covering 2,188 square metres. Visitors can learn about how the Borneo people co-exist with nature.<br>
+
+         It displays traditional costumes (even those for shamanism rituals), old vases, fishing equipment, headhunting essentials, wood carvings, replicas of the different animals found in Borneo, the Bidayuh traditional house or 'baruk', and more. There are also interactive theatre panels that retell the folklore of the 'Santubong Princess'. I must say this gallery is one of my favourites.</p>
+            <img class="img-gallery" src="img/3.jpeg" alt="Third Floor Gallery">
+        </section>
+
+        <section id="floor4">
+            <h2 style ="color:#18392b; font-family:Merriweather ;font-size: 280%";>Level 4: Features the Time Changes</h2>
+         <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">Level 4 Features the 'Time Changes' Exhibition. As discussed earlier, Borneo Cultures Museum is home to the calvaria of the 'Niah Lady'. You can find it among other interesting artefacts from the early civilization era on this floor. As you explore the gallery on level 4, you'll come across different sections, such as Cave Discoveries, Borneo and Empires, the Making of Sarawak, and Sarawak in Motion.<br>
+
+            You can find bone ornaments, earthenware, the Sarawak map, old guns, and more. I came across a display of the old Sarawak flags, including the old Sarawak passport.</p>
+         <img class="img-gallery" src="img/4.jpeg" alt="Fourth Floor Gallery">
+        </section>
+
+        <section id="floor5">
+            <h2 style=" color: #18392b; font-family:Merriweather ;font-size: 250%;">Level 5: Features the Object of Desire</h2>
+            <p style="margin: 50px; color: #18392b; font-family: georgia;font-size: 180%; text-align: left; margin-left: 8%;">Level 5 Features the 'Object of Desire" Gallery. On the last floor, you'll find the final gallery that features an exhibition called 'Object of Desire'. This gallery houses many artefacts that are believed to hold supernatural powers. There are wood carvings, scary wooden masks, beautiful handmade baskets and body accessories, gongs, wedding attires, and more.</p>
+            <img class="img-gallery" src="img/5.jpeg" alt="Fifth Floor Gallery">
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Museum. All rights reserved.</p>
+    </footer>
+
+    <script>
+        $(".dropdown-content a").click(function() {
+            var targetId = $(this).attr("href");
+            $("html, body").animate({
+                scrollTop: $(targetId).offset().top
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

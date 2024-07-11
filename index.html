@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .img-home, h1, img-muzium {
+        animation: fadeIn 1s ease-out;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <nav>
+                <img src="img/logo.jpg" class="icon" alt="Icon">
+            </nav>
+            <h2 style="color: #EDE1D2; font-family: Roboto; font-size: 160%;">BORNEO CULTURAL MUSEUM</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="tickets.html">Buy Ticket</a></li>
+            </ul>
+        </nav>
+        <form class="bar">
+            <input type="search" name="search" pattern=".*\S.*" required autocomplete="off">
+            <button class="search-btn" type="submit">
+                <span>Search</span>
+            </button>
+        </form>
+    </header>
+
+    <section id="home">
+        <h1 style="font-size: 350%; font-family: garamond">Welcome to the Museum</h1>
+        <img class="img-home" src="img/home.jpg" alt="">
+    </section>
+
+    <section style="background-color: #ebece5;" id="Borneo Cultural Museum">
+        <h1 style="margin: 50px; text-align: left; margin-left: 8%; color: #18392b; font-family: garamond; font-size: 300%;">Borneo Cultural Museum</h1>
+        <img class="img-muzium" src="img/muzium.jpg" alt="Museum Image">
+        <p style="margin: 50px; font-size: 150%; text-align: left; margin-left: 8%; color: #18392b; font-family: Georgia;">The Borneo Cultures Museum is located in the centre of Kuching city next to Padang Merdeka. This five-storey building is designed in a modern style, with distinctive architectural features that reflect Sarawak’s unique traditional crafts and rich cultural heritage.</p>
+        <p style="margin: 50px; font-size: 150%; text-align: left; margin-left: 8%; color: #18392b; font-family: Georgia;">Each gallery within this five-storey building offers a different experience. The children’s gallery theme on the second floor is 'Love our Rivers’, the ‘In Harmony with Nature’ gallery is on the third floor, the ‘Time Changes’ gallery is on the fourth floor, and the ‘Objects of Desire’ gallery is on the fifth floor.</p>
+        <p style="margin: 50px; font-size: 150%; text-align: left; margin-left: 8%; color: #18392b; font-family: Georgia;">In addition to the exhibition galleries, there is also an auditorium and various event spaces available for public rental.</p>
+    </section>
+
+    <section style="background-color: #ebece5;" id="Opening Hours">
+        <img class="img-section 3" src="img/open hours.png" alt="">
+    </section>
+
+<section style="background-color: #ebece5;">
+    <div  class="container">
+        <div class="img-section">
+            <img src="img/fee 2.jpg" alt="Borneo Cultural Museum" width="100%">
+        </div>
+        <div class="map-section">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.3480987951384!2d110.33980387496617!3d1.5554848984299832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba731a02a0425%3A0x79aaa9b1d4a20d4f!2sBorneo%20Cultures%20Museum!5e0!3m2!1sen!2smy!4v1720170076274!5m2!1sen!2smy" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <section style="background-color: #ebece5;">
+            <div class="content">
+                <section style="background-color:#333131; margin-top: 30px; padding: 38px; border: 1px solid #000; box-sizing: border-box;" id="contact">
+                    <h2 style="margin: 20px; color: aliceblue; ">Contact Us</h2>
+                    <div class="contact-container">
+                        <div class="left">
+                            <p style="color: aliceblue;">Operating Hours (Main Office)</p>
+                            <p style="color: aliceblue;">Monday - Thursday<br>8.00am to 1.00pm & 2.00pm to 5.00pm</p>
+                            <p style="color: aliceblue;">Friday<br>8.00am to 11.45pm & 2.00pm to 5.00pm</p>
+                            <p style="color: aliceblue;">Saturday, Sunday, Public Holiday<br>Counter Closed</p>
+                        </div>
+                        <div class="right">
+                            <p style="color: aliceblue;"><b>SARAWAK MUSEUM DEPARTMENT <br>JALAN P RAMLEE <br> 93400, KUCHING, SARAWAK</b></p>
+                            <p style="color: aliceblue;"><b>TEL:</b> +6082-548181 (Main Office)<br><b>TEL:</b> +6082-548215 (Borneo Cultures Museum)<br><b>FAX:</b> +082-548282<br><b>EMAIL:</b> museum@sarawak.gov.my</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer>
+        <p>&copy; 2024 Museum. All rights reserved.</p>
+    </footer>
+</body>
+</html>
